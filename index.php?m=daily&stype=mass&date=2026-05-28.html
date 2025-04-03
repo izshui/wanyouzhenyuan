@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4cb050" />
+    <meta name="keywords" content="万有真原, 天主教小助手, 教会新闻, 思高圣经, 牧灵圣经, 教会节日, 教堂搜索, 教会音乐, 日课, 读经, 弥撒, 诵读, 晨祷, 日祷, 晚祷, 夜祷, 反省, 礼仪, 圣人传记">
+    <meta name="description" content="我们的主耶稣基督&mdash永恒的大司祭进堂咏  参阅希7:24 9:15耶稣基督，新约的中保，具有永远的司祭职，因为他永远存在。光荣颂天主在天受光荣，主爱的人在世享平安。主、天主...">
+    <link rel="icon" href="https://www.wanyouzhenyuan.cn/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://res.kenahan.com/statics/v2/img/icon/app-icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://res.kenahan.com/statics/v2/img/icon/app-icon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://res.kenahan.com/statics/v2/img/icon/app-icon-180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://res.kenahan.com/statics/v2/img/icon/app-icon-167.png">
+    <link rel="stylesheet" type="text/css" href="https://res.kenahan.com/statics/v2/js/bootstrap-5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://res.kenahan.com/statics/v2/js/bootstrap-5.3.3/dist/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://res.kenahan.com/statics/v2/css/main.css?v=4">
+    <title>弥撒及读经 - 我们的主耶稣基督—永恒的大司祭 - 万有真原</title>
+    <!-- begin gtm -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WSQGD72L');</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5T6KB41QB8"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-5T6KB41QB8');
+    </script>
+    <!-- end gtm -->
+    <script>
+        const V2_STATIC_PATH = "https://res.kenahan.com/statics/v2";
+        const EASTER_DOMAIN = "https://www.chinacath.cn/";
+        const APP_DOWNLOAD_URL = "https://www.chinacath.cn/s/2/2";
+        const WX_OPEN_ID = "";
+        const PAY_BUSINESS_TYPE = "liturgy";
+        let PAY_BUSINESS_ID = "";
+        let pageMeta = {"site_title":"\u4e07\u6709\u771f\u539f","stitle":"\u5f25\u6492\u53ca\u8bfb\u7ecf - \u6211\u4eec\u7684\u4e3b\u8036\u7a23\u57fa\u7763\u2014\u6c38\u6052\u7684\u5927\u53f8\u796d","module":"\u65e5\u8bfe","title":"\u5f25\u6492\u53ca\u8bfb\u7ecf - \u6211\u4eec\u7684\u4e3b\u8036\u7a23\u57fa\u7763\u2014\u6c38\u6052\u7684\u5927\u53f8\u796d - \u4e07\u6709\u771f\u539f","keyword":"\u4e07\u6709\u771f\u539f, \u5929\u4e3b\u6559\u5c0f\u52a9\u624b, \u6559\u4f1a\u65b0\u95fb, \u601d\u9ad8\u5723\u7ecf, \u7267\u7075\u5723\u7ecf, \u6559\u4f1a\u8282\u65e5, \u6559\u5802\u641c\u7d22, \u6559\u4f1a\u97f3\u4e50, \u65e5\u8bfe, \u8bfb\u7ecf, \u5f25\u6492, \u8bf5\u8bfb, \u6668\u7977, \u65e5\u7977, \u665a\u7977, \u591c\u7977, \u53cd\u7701, \u793c\u4eea, \u5723\u4eba\u4f20\u8bb0","description":"\u6211\u4eec\u7684\u4e3b\u8036\u7a23\u57fa\u7763&mdash\u6c38\u6052\u7684\u5927\u53f8\u796d\u8fdb\u5802\u548f  \u53c2\u9605\u5e0c7:24 9:15\u8036\u7a23\u57fa\u7763\uff0c\u65b0\u7ea6\u7684\u4e2d\u4fdd\uff0c\u5177\u6709\u6c38\u8fdc\u7684\u53f8\u796d\u804c\uff0c\u56e0\u4e3a\u4ed6\u6c38\u8fdc\u5b58\u5728\u3002\u5149\u8363\u9882\u5929\u4e3b\u5728\u5929\u53d7\u5149\u8363\uff0c\u4e3b\u7231\u7684\u4eba\u5728\u4e16\u4eab\u5e73\u5b89\u3002\u4e3b\u3001\u5929\u4e3b...","thumbnail":"https:\/\/res.kenahan.com\/app\/icon\/app-icon.png"};
+    </script>
+</head>
+
+<body style="padding-top: 4rem;">
+<header class="sticky-top">
+    <nav class="navbar navbar-expand-lg fixed-top bg-body" aria-label="菜单栏">
+        <div class="container-xl">
+            <a class="navbar-brand p-0" href="index.html">
+                <img src="https://res.kenahan.com/statics/v2/img/logo.jpg" class="img-fluid rounded" style="width: 40px;" alt="万有真原"/>
+            </a>
+            <span id="navbar-title" class="d-lg-none">日课</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul id="navbar-links" class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active"><a class="nav-link" href="index.html">首页</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.php%3Fm=news.html">动态</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.php%3Fm=bible.html">圣经</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.php%3Fm=daily.html">日课</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.php%3Fm=music.html">音频</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.php%3Fm=live.html">直播</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.php%3Fm=more.html">更多</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <form class="align-center" action="index.php.html" role="search">
+                        <input name="m" value="search" type="hidden">
+                        <div class="input-group">
+                            <input name="keyword" type="text" class="form-control" placeholder="搜索">
+                            <button class="btn btn-outline-main" type="submit" id="button-addon2"><i class="bi bi-search"></i></button>
+                        </div>
+                    </form>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
+                            id="bd-theme"
+                            type="button"
+                            aria-expanded="false"
+                            data-bs-toggle="dropdown"
+                            data-bs-display="static"
+                            aria-label="切换主题">
+                            <i class="bi-circle-half"></i>
+                            <span class="d-lg-none ms-2" id="bd-theme-text">切换颜色</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme-text">
+                    <li>
+                        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                        <i class="bi-sun-fill"></i>浅色<i class="bi-check2"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                        <i class="bi-moon-stars-fill"></i>深色<i class="bi-check2"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+                        <i class="bi-circle-half"></i>自动<i class="bi-check2"></i>
+                        </button>
+                    </li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="top-guider" class="container-xl d-none">
+    <div class="alert alert-warning alert-dismissible p-1 my-1" role="alert">
+        <div><a class="alert-link" href="index.php%3Fm=live&amp;tm=2.html" target="_blank">直播预告： 课程 | 明达班神学课程《圣三神学》 (今天 12:50)</a></div>
+        <button type="button" class="btn-close p-1 m-1"></button>
+    </div>
+</div>
+<main class="mt-0">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="p-3 bg-body-tertiary rounded d-none d-lg-block">
+                    <h5>我们的主耶稣基督—永恒的大司祭</h5>
+                    <p class="mb-0">上主俯允了我的哀告，上主悦纳了我的祈祷&nbsp;&nbsp;&nbsp; ——咏 6:10</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 d-flex gap-1 py-2">
+                                                <a href="index.php%3Fm=daily&amp;stype=mass&amp;date=2026-05-27.html" class="btn btn-outline-main text-nowrap">前一天</a>
+                        <input class="form-control flex-grow-1" type="date" placeholder="选择日期" id="date-picker" value="2026-05-28">
+                        <a href="index.php%3Fm=daily&amp;stype=mass&amp;date=2026-05-29.html" class="btn btn-outline-main text-nowrap">后一天</a>
+                    </div>
+                    <div class="col-lg-12">
+                        <ul class="nav nav-underline">
+                                                        <li class="nav-item">
+                              <a class="nav-link active" href="index.php%3Fm=daily&amp;stype=mass&amp;date=2026-05-28.html">弥撒读经</a>
+                            </li>
+                                                        <li class="nav-item">
+                              <a class="nav-link " href="index.php%3Fm=daily&amp;stype=thought&amp;date=2026-05-28.html">圣言反省</a>
+                            </li>
+                                                        <li class="nav-item">
+                              <a class="nav-link " href="index.php%3Fm=daily&amp;stype=let&amp;date=2026-05-28.html">诵读</a>
+                            </li>
+                                                        <li class="nav-item">
+                              <a class="nav-link " href="index.php%3Fm=daily&amp;stype=lod&amp;date=2026-05-28.html">晨祷</a>
+                            </li>
+                                                        <li class="nav-item">
+                              <a class="nav-link " href="index.php%3Fm=daily&amp;stype=med&amp;date=2026-05-28.html">日祷</a>
+                            </li>
+                                                        <li class="nav-item">
+                              <a class="nav-link " href="index.php%3Fm=daily&amp;stype=ves&amp;date=2026-05-28.html">晚祷</a>
+                            </li>
+                                                        <li class="nav-item">
+                              <a class="nav-link " href="index.php%3Fm=daily&amp;stype=comp&amp;date=2026-05-28.html">夜祷</a>
+                            </li>
+                                                        <li class="nav-item">
+                              <a class="nav-link " href="index.php%3Fm=daily&amp;stype=saint&amp;date=2026-05-28.html">圣人传记</a>
+                            </li>
+                                                      </ul>
+                          <div class="border-bottom" style="margin-top: -1px;"></div>
+                    </div>
+                    <div class="col-lg-12 article">
+                        <div class="article-content"><h3>我们的主耶稣基督—永恒的大司祭</h3>
+<p><strong>进堂咏</strong> &nbsp;参阅希7:24; 9:15<br />
+耶稣基督，新约的中保，具有永远的司祭职，因为他永远存在。</p>
+
+<p><strong>光荣颂</strong><br />
+天主在天受光荣，主爱的人在世享平安。主、天主、天上的君王、全能的天主圣父，我们为了你无上的光荣，赞美你、称颂你、朝拜你、显扬你、感谢你。主、耶稣基督、独生子；主、天主、天主的羔羊，圣父之子；除免世罪者，求你垂怜我们。除免世罪者，求你俯听我们的祈祷。坐在圣父之右者，求你垂怜我们；因为只有你是圣的，只有你是主，只有你是至高无上的。耶稣基督，你和圣神，同享天主圣父的光荣。阿们。</p>
+
+<p><strong>集祷经</strong><br />
+天主，你为了你的尊威，并为了人类的得救，使你的唯一圣子作永远的大司祭，求你藉着所倾注的圣神，使他选作臣仆和仆役的，忠信承行他们所领受的职份。他是天主，和你及圣神，永生永王。阿们。</p>
+
+<p><strong>读经</strong>（圣、圣、圣，万军的上主。）<br />
+恭读依撒意亚先知书 &nbsp;6:1-4, 8<br />
+乌齐雅王逝世那年，我看到上主高高在上，坐在宝座上；他的衣边充满圣殿；在他的上方，站在色辣芬；每位色辣芬都有六个翅膀：两个用来遮盖自己的脸面，两个用来遮盖自己的脚，另两个用来飞翔。他们彼此高呼：&ldquo;圣、圣、圣，万军的上主；大地充满他的光荣。&rdquo;他们一呼喊，门限的基础都摇撼了，整个圣殿充满烟雾。我听到有上主的声音：&ldquo;我要派遣谁呢？谁会为我们去呢？&rdquo;于是我说：&ldquo;我在这里，请派遣我。&rdquo;&mdash;&mdash;天主的圣言。</p>
+
+<p><strong>或：</strong></p>
+
+<p><strong>读经</strong>（祝圣者和被祝圣者都同出一源）<br />
+恭读致希伯来人书 &nbsp;2:10-18<br />
+那为万有，万有藉着他存在的，带领许多孩子进入光荣，藉着苦难，堪当成就他们得救的前驱。因为祝圣者和被祝圣者都同出一源。因此，他把他们称作兄弟，并不以为耻，他说：&ldquo;我要向我的兄弟宣告你的名号，我要在集会中讚颂你。&rdquo;又说：&ldquo;我要信靠他。&rdquo;又说：&ldquo;我在这里，同天主赐给我的孩子们在一起。&rdquo;因此，既然孩子们分享了相同的血肉，他照样具有相同的本性，好使他能藉着死亡，摧毁死亡的权势，就是魔鬼，拯救那些因死亡的恐惧，一生受奴役的人。因为，事实上，他没有与天使相关，而是与亚巴郎的后裔相关。因此，他在各方面，与自己的兄弟相似，好使他在为天主服役的事上，成为一个仁慈和忠信的大司祭，为百姓的罪赎罪。因为他亲自受了苦，受过试探，能援助受试探的人。&mdash;&mdash;天主的圣言。</p>
+
+<p><strong>答唱咏</strong> &nbsp;咏23:2-3, 5, 6<br />
+<strong>答：</strong>上主是我的牧者，我实在一无所缺。<br />
+<strong>领：</strong>他使我卧在青绿的草场，领我走近幽静的水旁。还使我的心灵得到舒畅。他为他的圣名，领我踏上了正义的坦途。<br />
+<strong>答：</strong>上主是我的牧者，我实在一无所缺。<br />
+<strong>领：</strong>你在我对头面前，为我摆脱了筵席；在我头上傅油，使我的杯爵满溢。<br />
+<strong>答：</strong>上主是我的牧者，我实在一无所缺。<br />
+<strong>领：</strong>在我一生的岁月里，幸福与慈爱常随不离。我将住在上主的殿里，直至悠远的时日。<br />
+<strong>答：</strong>上主是我的牧者，我实在一无所缺。</p>
+
+<p><strong>福音前欢呼</strong> &nbsp;参阅则36:25A, 26A<br />
+<strong>答：</strong>阿肋路亚。<br />
+<strong>领：</strong>我要在你身上倾注清水，赐给你一颗崭新的心；我要在你身内放上一种新的精神。<br />
+<strong>答：</strong>阿肋路亚。</p>
+
+<p><strong>福音</strong>（我为了他们圣化我自己；好使他们也能因真理而被祝圣。）<br />
+恭读圣若望福音 &nbsp;17:1-2, 9, 14-26<br />
+耶稣举目望天说：&ldquo;圣父，时候来到；光荣你子，好使你子光荣你，你既赐给他权柄，掌管有血肉的人，赐永生给你赐给他的人。我正为他们祈求；我并非为世界祈求，而是为你赐给我的人祈求，因为他们属于你。<br />
+我把你的话赐给他们，世界恼恨他们，因为他们并非属于这个世界，就像我不属于这个世界一样。我不求你把他们从世上除去，但求你使他们远离邪恶。他们不属于这个世界，就如我不属于这个世界一样。求你以真理圣化他们，你的话就是真理。正如你派遣我进入世界，同样，我也派遣他们进入世界。我为他们的缘故，圣化我自己，好使他们能因真理而被圣化。<br />
+我不单为他们祈求，而且也为那些因他们的话而相信我的人祈求，好使众人合而为一。圣父，一如你在我内，我在你内，使他们也在我们内合而为一，为使世界相信是你派遣了我。我将你赐给我的光荣赐给了他们，为使他们合而为一，一如我们原为一体一样。我在他们内，你在我内，使他们完全合而为一，为使世界知道是你派遣了我，并且你爱了他们，如同爱了我一样。父啊！你所赐给我的人，我愿我在哪里，他们也同我在一起，使他们享见你所赐给我的光荣，因为你在创世之前，就爱了我。公义的父，世界没有认识你，我却认识了你，这些人也知道是你派遣了我。我已经将你的名宣示给他们了，我还要宣示，好使你爱我的爱，在他们内，我也在他们内。&mdash;&mdash;基督的福音。</p>
+
+<p><strong>献礼经</strong><br />
+上主，愿我们的中保耶稣基督，使这些祭品，成为蒙你悦纳的祭品，好使他把我们充作牺牲，与他相偕，呈献于你，蒙你悦纳。他是天主，永生永王。阿们。</p>
+
+<p><strong>颂谢词</strong><br />
+主、圣父、全能永生的天主，我们时时处处感谢你，实在是理所当然的，并能有助于我们得救。因为你使你的圣子，藉圣神的傅油，成为新而永久盟约的大司祭，按你神妙的措置，你乐意命他在同一教会内，继续作大司祭。因为基督不仅使他所作自己所有的子民配享王家的司祭，而且使他拣选的人，藉着覆手，分担他神圣的职份。他们要因他的名号，不断献上使人得救的祭献，在你的儿女面前举行逾越圣祭，藉爱德引导你的圣民，藉圣言使他们获得滋养，藉圣事坚固他们。诚如他们为了你，并为了他们兄弟姐妹的得救牺牲了自己，致力于使自己成为相似基督本身的肖像，不断向你献上信德和爱德的见证。<br />
+因此，我们随同天使，以及天上诸圣，称谢你，不停地欢呼：圣、圣、圣&hellip;&hellip;</p>
+
+<p><strong>领主咏</strong> &nbsp;参阅玛28:20b<br />
+主说：我同你们天天在一起，直到今世的终结。</p>
+
+<p><strong>领圣体后经</strong><br />
+上主，我们恳求你，使我们奉献和领受的神圣祭献，充满我们的生命。好使我们藉爱德常与你联结在一起，结出常存的果实。以上所求是靠我们的主基督。阿们。</p>
+
+<br/>
+<h3>常年期第八周(星期四)（双数年）</h3>
+<p><strong>进堂咏</strong> &nbsp;咏18:19-20<br />
+上主保护我，他使我自由生活，他救了我，因为他喜欢我。</p>
+
+<p><strong>集祷经</strong><br />
+上主，但愿世局的演变，都遵照祢正义与和平的计划迈进；并使祢的教会不受任何干扰，常能欢欣鼓舞地侍奉祢。以上所求是靠祢的子，我们的主天主耶稣基督，他和祢及圣神永生永王。阿们。</p>
+
+<p><strong>读经一</strong>（你们是王者的司祭，为使你们宣扬那召叫你们者的荣耀。)<br />
+恭读圣伯多禄宗徒前书 &nbsp;2:2-5, 9-12<br />
+亲爱的弟兄：你们要像初生的婴儿，贪求那属灵的纯奶，使你们靠着它生长而得救；因为你们已尝到了&ldquo;主是多么甘怡&rdquo;。你们接近他，就是接近那为人所摈弃，却为天主所精选，所尊重的活石；你们也就成了活石，用来建造一座属神的殿宇；你们将成为一班圣洁的司祭，以奉献因耶稣基督而蒙天主悦纳的属神的祭品。<br />
+你们是特选的民族，王家的司祭，圣洁的国民，属于上主的子民，为使你们宣扬那召叫你们出黑暗，而进入奇妙之光者的荣耀。你们从前不是天主的子民，现在却是天主的子民；从前没有蒙怜恤，现在却蒙怜恤。<br />
+亲爱的！我劝你们做侨民和做旅客的，应戒绝与灵魂作战的肉欲；在外教人中要常保持良好的品行，好使那些人，虽然诽谤你们是作恶的人，但因看见你们的善行，就要在主眷顾的日子，归光荣于天主。&mdash;&mdash;上主的圣言。</p>
+
+<p><strong>答唱咏</strong> &nbsp;咏100:2-5<br />
+<strong>答：</strong>你们到他面前时，载歌载舞。<br />
+<strong>领：</strong>普世大地，请向上主欢呼，兴高采烈地事奉上主，到他面前时，载歌载舞。<br />
+<strong>答：</strong>你们到他面前时，载歌载舞。<br />
+<strong>领：</strong>要知道，唯有上主是天主，他创造了我们，我们属于他。我们是他的子民，是他牧场的羊群。<br />
+<strong>答：</strong>你们到他面前时，载歌载舞。<br />
+<strong>领：</strong>你们要进入他的门庭，报谢主恩，高唱赞美诗进入他的庭院；称谢他，赞美他的圣名。<br />
+<strong>答：</strong>你们到他面前时，载歌载舞。<br />
+<strong>领：</strong>的确，上主温良慈善，他的慈爱直到永远；他的信实，世世绵延。<br />
+<strong>答：</strong>你们到他面前时，载歌载舞。</p>
+
+<p><strong>阿肋路亚</strong> &nbsp;雅1:21<br />
+<strong>答：</strong>阿肋路亚。<br />
+<strong>领：</strong>你们要以柔顺的心，接受那种植在你们心里的道，因为它能拯救你们的心灵。<br />
+<strong>答：</strong>阿肋路亚。</p>
+
+<p><strong>福音</strong>（老师！请叫我看见吧）<br />
+恭读圣马尔谷福音 &nbsp;10:46-52<br />
+耶稣和门徒及一大群人，从耶里哥出来的时候，有一个瞎眼的乞丐，是提买的儿子巴尔提买，坐在路旁。他听说是纳匝肋人耶稣，就喊叫说：&ldquo;耶稣，达味之子，可怜我吧！&rdquo;许多人就斥责他，叫他不要作声；他却越发喊叫说：&ldquo;达味之子，可怜我吧！&rdquo;耶稣就站住，说：&ldquo;叫他过来！&rdquo;他们就叫那瞎子，对他说：&ldquo;放心！起来吧！他叫你呢！&rdquo;瞎子就扔下外衣，跳起来，走到耶稣跟前。耶稣对他说：&ldquo;你愿意我为你做什么？&ldquo;瞎子说：&ldquo;老师！请叫我看见吧！&rdquo;耶稣对他说：&ldquo;去吧！你的信德救了你。&rdquo;瞎子立刻看见了，就在路上跟着耶稣去了。&mdash;&mdash;基督的福音。</p>
+
+<p><strong>献礼经</strong><br />
+仁慈的天主，我们所呈上的礼品，原是祢所赏赐的；但祢却把我们的奉献视为敬爱祢的表现，求祢使我们常珍视祢的恩赐，承行祢的圣意，将来在天上也能获得永生的赏报。以上所求是靠我们的主基督。阿们。</p>
+
+<p><strong>颂谢词<br />
+通用颂谢词（三）</strong><br />
+天主是人的创造者与再造者<br />
+主、圣父、全能永生的天主！我们时时处处感谢你，实在是理所当然的，并能使人得救。因为你是人类的创造者，你藉着你钟爱之子，也是人类极宽仁的再造者。你创造的万物应当事奉你，你救赎的子民共同赞美你，你的诸圣也全心歌颂你。<br />
+因此，我们随同所有天使称扬你，不停地欢呼：圣、圣、圣&hellip;&hellip;</p>
+
+<p><strong>通用颂谢词（四）</strong><br />
+赞颂天主是天主的恩赐<br />
+主、圣父、全能永生的天主！我们时时处处感谢你，实在是理所当然的，并能使人得救。你原不需要我们的赞颂，我们对你知恩报爱的心愿，也出自你的启发，因为我们的赞颂并不增加你的内在荣耀，却藉着我们的主基督有益于我们自身的得救。<br />
+因此，我们联合天上所有天使一起赞颂你，不停地欢呼：圣、圣、圣&hellip;&hellip;</p>
+
+<p><strong>领主咏</strong> &nbsp;咏13:6<br />
+我要向厚待我的上主讴歌，我要向至高上主的名咏唱。 &nbsp; &nbsp;<br />
+或：玛28:20<br />
+主说：我要天天同你们在一起，直到世界的终结。</p>
+
+<p><strong>领圣体后经</strong><br />
+慈悲的上主，我们饱飨了救恩的盛筵，恳切求祢：恩赐我们今世常得这圣事的滋养，来日也获享永生。以上所求是靠我们的主基督。阿们。</p>
+
+<br/>
+</div>
+                        <hr/>
+                        <div class="wxpay pb-3">
+    <div class="text-center">
+        <button id="wxpay-btn" type="button" class="btn btn-main"><i class="bi bi-hand-thumbs-up"></i>赞赏</button>
+    </div>
+    <div id="wxpay-box" class="text-center" style="display: none;">
+        <div class="row my-2">
+            <div class="col-sm-2"></div>
+            <div id="wxpay-amount-group" class="btn-group col-sm-8" role="group">
+                <button type="button" class="btn btn-outline-main" data-amount="1">1元</button>
+                <button type="button" class="btn btn-outline-main" data-amount="5">5元</button>
+                <button type="button" class="btn btn-outline-main" data-amount="10">10元</button>
+                <button type="button" class="btn btn-outline-main" data-amount="50">50元</button>
+                <button type="button" class="btn btn-outline-main" data-amount="100">100元</button>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="row my-2">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-6 col-9">
+                <div class="input-group mb-3">
+                    <span class="input-group-text"><img style="height: 1.5rem;"
+                        src="https://res.kenahan.com/statics/v2/img/wxpay-logo.png"></span>
+                    <input id="wxpay-amount" type="number" min="1" max="10000" class="form-control text-end" placeholder="输入金额" value="1">
+                    <span class="input-group-text">元</span>
+                </div>
+            </div>
+            <div class="col-sm-2 col-3 text-center">
+                <button id="wxpay-submit" class="btn btn-main" type="button">支付</button>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="wxpay-qrcode"></div>
+                <div id="wxpay-tips">
+                    <strong>打开微信扫码，完成赞赏</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="daily-card bg-body-tertiary d-none d-lg-block mb-2">
+    <img src="https://res.chinacath.cn/web/images/2025/02/22/1740206457420.jpg@!w600h320" class="w-100 img-fluid">
+    <div class="p-2">
+        <span>他离的还远的时候，他父亲就看见了他，动了怜悯的心。</span><br/>
+        <div class="text-center">
+            <a href="index.php%3Fm=bible&amp;template=49&amp;chapter=15&amp;section=20.html" target="_blank">路 15:20</a>
+        </div>
+                <div class="text-center m-3 fs-7">
+                <a href="index.php%3Fm=saint&amp;code=1032201.html" target="_blank">圣婴西满和圣童威廉</a>
+                </div>
+            </div>
+</div>
+
+<div class="row">
+    <!-- 热门文章-->
+    
+    <!-- 推荐专辑-->
+    
+    <!-- 推荐歌单-->
+        
+
+    <!-- 近期节日 -->
+        <div class="col-12 col-lg-12 col-md-6 col-sm-6">
+        <div class="my-3">
+            <div class="d-flex">
+                <div class="fs-5 fw-bold flex-grow-1 text-nowrap">近期节日</div>
+                <div class="align-self-center text-nowrap">
+                    <a class="link-secondary link-underline link-underline-opacity-0" href="index.php%3Fm=saint.html" target="_blank">全部<i class="bi bi-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="list-group list-group-flush">
+                                <a href="index.php%3Fm=saint&amp;code=40604.html" target="_blank" class="list-group-item list-group-item-action side-card px-0 py-3">
+                    <div class="flex-grow-0">
+                                                <img class="me-2" src="https://res.kenahan.com/web/jpg/2018/1222/1545462399679.jpg@!w200h200">
+                                            </div>
+                    <div class="flex-grow-1 d-flex flex-column">
+                        <div class="flex-grow-1"><div class="text-line-2">主的晚餐</div></div>
+                                            </div>
+                </a>
+                                <a href="index.php%3Fm=saint&amp;code=40605.html" target="_blank" class="list-group-item list-group-item-action side-card px-0 py-3">
+                    <div class="flex-grow-0">
+                                                <img class="me-2" src="https://res.kenahan.com/web/jpg/2018/1222/1545463380231.jpg@!w200h200">
+                                            </div>
+                    <div class="flex-grow-1 d-flex flex-column">
+                        <div class="flex-grow-1"><div class="text-line-2">耶稣受难</div></div>
+                                            </div>
+                </a>
+                                <a href="index.php%3Fm=saint&amp;code=40606.html" target="_blank" class="list-group-item list-group-item-action side-card px-0 py-3">
+                    <div class="flex-grow-0">
+                                                <img class="me-2" src="https://res.kenahan.com/web/jpg/2018/1222/154546363950.jpg@!w200h200">
+                                            </div>
+                    <div class="flex-grow-1 d-flex flex-column">
+                        <div class="flex-grow-1"><div class="text-line-2">基督安眠墓中(复活节前夕)</div></div>
+                                            </div>
+                </a>
+                                <a href="index.php%3Fm=saint&amp;code=40600.html" target="_blank" class="list-group-item list-group-item-action side-card px-0 py-3">
+                    <div class="flex-grow-0">
+                                                <img class="me-2" src="https://res.kenahan.com/web/jpg/2018/1222/1545460875225.jpg@!w200h200">
+                                            </div>
+                    <div class="flex-grow-1 d-flex flex-column">
+                        <div class="flex-grow-1"><div class="text-line-2">圣枝主日(基督苦难主日)</div></div>
+                                            </div>
+                </a>
+                                <a href="index.php%3Fm=saint&amp;code=40601.html" target="_blank" class="list-group-item list-group-item-action side-card px-0 py-3">
+                    <div class="flex-grow-0">
+                                                <img class="me-2" src="https://res.kenahan.com/web/jpg/2018/1222/1545461209478.jpg@!w200h200">
+                                            </div>
+                    <div class="flex-grow-1 d-flex flex-column">
+                        <div class="flex-grow-1"><div class="text-line-2">圣周一</div></div>
+                                            </div>
+                </a>
+                            </div>
+        </div>
+    </div>
+    
+    <!-- 推荐歌手 -->
+    
+    <!-- 热门教堂 -->
+    
+    <!-- 直播预告 -->
+        <div class="col-12 col-lg-12 col-md-6 col-sm-6">
+        <!-- 热门标签 -->
+                
+        <!-- 快搜教堂 -->
+        <div class="my-3">
+            <a href="index.php%3Fm=church.html" target="_blank">
+                <img src="https://res.kenahan.com/statics/v2/img/ksou-church-2x.png" class="w-100 img-fluid">
+            </a>
+        </div>
+        <!-- 扫码下载 -->
+        <div class="my-3">
+            <a href="https://www.chinacath.cn/s/2/2" target="_blank">
+                <img src="https://res.kenahan.com/statics/v2/img/download-app-2x.png" class="w-100 img-fluid">
+            </a>
+        </div>
+    </div>
+</div>            </div>
+        </div>
+    </div>
+</main>
+<footer class="bg-body-tertiary py-4 mt-4">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h5>关于我们</h5>
+                <div>
+                    <p>“万有真原”是一款针对大公教会的信仰辅助工具，致力于帮助大家更好的在信仰内生活。</p>
+                    <p>现有原创栏目“信仰分享”，期待大家积极分享自己对信仰的心得体会。</p>
+                    <ul class="list-unstyled">
+                        <li>投稿邮箱： tougao@kenahan.com &nbsp;&nbsp;<a href="index.php%3Fm=news&amp;a=content&amp;id=17294.html">(详情点击)</a></li>
+                        <li>问题反馈： fankui@kenahan.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-8 col-md-4">
+                <h5>友情链接</h5>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul class="list-unstyled d-flex flex-column gap-1">
+                            <li><a href="http://www.vaticannews.cn/" target="_blank">梵蒂冈新闻网</a></li>
+                            <li><a href="https://www.catholic-bj.cn/" target="_blank">北京教区</a></li>
+                            <li><a href="https://www.jiaolizhongxin.com/" target="_blank">辽宁教理中心</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="list-unstyled d-flex flex-column gap-1">
+                            <li><a href="https://www.hdcatholic.cn/" target="_blank">邯郸教区</a></li>
+                            <li><a href="https://www.zhouzhidiocese.com/" target="_blank">周至教区</a></li>
+                            <li><a href="https://www.tzjxant.com/?ref=cathassist" target="_blank">西安南堂</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-2">
+                <h5>关注我们</h5>
+                <div class="col-12">
+                    <ul class="list-unstyled d-flex flex-column gap-1">
+                        <li><a href="https://www.chinacath.cn/s/2/2" target="_blank">下载“万有真原”</a></li>
+                        <li><a href="index.php%3Fm=goto&amp;t=shop&amp;tm=1742575487.html" target="_blank">网店</a></li>
+                        <li><a href="index.php%3Fm=goto&amp;t=about.html" target="_blank">支持我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ul class="list-unstyled d-flex flex-wrap gap-2 justify-content-center">
+            <li>©2013-2025, 天主教北京教区西什库教堂 所有</li>
+            <li><a href="http://beian.miit.gov.cn" target="_blank" style="color:#959595;">京ICP备2022026334号</a></li>
+            <li><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010202010405" target="_blank" style="color:#959595;"><img src="https://res.kenahan.com/statics/v2/img/gongan.png" style="overflow-clip-margin: content-box; overflow: clip; height: 1.2em;">京公网安备 11010202010405号</a></li>
+            <li>互联网宗教信息服务许可证：京（2022）0000098</li>
+        </ul>
+    </div>
+</footer>
+<div class="toast-container position-fixed bottom-0 end-0 p-3"></div>
+</body>
+<script type="application/javascript" src="https://res.kenahan.com/statics/v2/js/bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script type="application/javascript" src="https://res.kenahan.com/statics/v2/js/jquery-3.7.1/dist/jquery.min.js"></script>
+<script type="application/javascript" src="https://res.kenahan.com/statics/v2/js/qrcode.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://res.kenahan.com/statics/v2/js/aplayer/APlayer.1.10.1.min.css">
+<script type="application/javascript" src="https://res.kenahan.com/statics/v2/js/aplayer/APlayer.1.10.1.min.js"></script>
+<script type="application/javascript" src="https://res.kenahan.com/statics/v2/js/common.js?v=11"></script>
+<script type="application/javascript" src="https://res.kenahan.com/statics/v2/js/home.js"></script>
+<!-- begin gtm -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSQGD72L"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- end gtm -->
+</html>
+<script>
+    $(document).ready(function() {
+        $('#date-picker').on('change', function() {
+            var date = $(this).val();
+            window.location.href = '/index.php?m=daily&stype=mass&date=' + date;
+        });
+    });
+</script>
